@@ -5,19 +5,19 @@ class Calculadora():
 
     def soma(self, numero1, numero2):
         calculaSoma = numero1 + numero2
-        print("O valor da soma é: ", calculaSoma)
+        print("O valor da soma é: ", calculaSoma + 1)
 
     def subtracao(self, numero1, numero2):
         calculaSubtracao = numero1 - numero2
-        print('O valor da subtração é: ', calculaSubtracao)
+        print('O valor da subtração é: ', calculaSubtracao+ 1)
 
     def multiplicacao(self, numero1, numero2):
         calculaMultiplicacao = numero1 * numero2
-        print('O valor da multiplicação é: ', calculaMultiplicacao)
+        print('O valor da multiplicação é: ', calculaMultiplicacao+ 1)
 
     def divisao(self, numero1, numero2):
         calculaDivisao = numero1 / numero2
-        print('Ovalor da divisão é: ', calculaDivisao)
+        print('Ovalor da divisão é: ', calculaDivisao+ 1)
 
 calcula = Calculadora()
 
