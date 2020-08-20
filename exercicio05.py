@@ -2,10 +2,10 @@
 
 class Validator():
     def is_positive(self, number):
-        if number >= 0:
-            print('Este número é positivo')
+        if (number % 2) == 0:
+            print('Este número é par')
         else:
-            print("Este número é Negativo")
+            print("Este número é impar")
 
 validatorNumber = Validator()
 number = int(input("Digite o Número que você deseja valdiar: "))
